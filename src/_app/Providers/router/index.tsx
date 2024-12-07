@@ -2,6 +2,7 @@ import CapsuleDetailPage from "@/_app/pages/CapsuleDetailPage";
 import CreateCapsulePage from "@/_app/pages/CreateCapsulePage";
 import CreateMessagePage from "@/_app/pages/CreateMessagePage";
 import LandingPage from "@/_app/pages/LandingPage";
+import PickerAccordion from "@/components/Accordion";
 import { createBrowserRouter } from "react-router";
 
 const router = createBrowserRouter([
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
 
   {
     path: "/capsule/create",
-    element: <CreateCapsulePage />,
+    element: <PickerAccordion/>,
   },
   {
     path: "/capsule",
